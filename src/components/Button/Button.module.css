@@ -1,0 +1,14 @@
+.primary {
+  align-self: flex-start;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 18px;
+  background: #4e46dc;
+  color: #fff;
+  font: 600 15px/1.2 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background: #4138c2;
+}

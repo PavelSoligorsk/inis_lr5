@@ -1,0 +1,22 @@
+.field {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 14px 16px;
+  min-height: 88px;
+  resize: vertical;
+  background: #fff;
+  color: #101820;
+  font: 15px/1.45 system-ui, sans-serif;
+}
+
+.field::placeholder {
+  color: #9ca3af;
+}
+
+.field:focus {
+  outline: none;
+  border-color: #4e46dc;
+  box-shadow: 0 0 0 1px #4e46dc;
+}

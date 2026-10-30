@@ -1,0 +1,27 @@
+.idle,
+.liked {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #f3f4f6;
+  font: 600 14px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.idle {
+  color: #6c727f;
+}
+
+.liked {
+  color: #dd524b;
+  background: #fff1f0;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
